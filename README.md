@@ -7,11 +7,7 @@ A web application API was developed using Node.js, which can perform CRUD operat
 Transports were chosen for data storage and I tried using String, Numbers and Booleans.
 
 The code was done in Visual Studio and the following body-parser, express and mongoose dependencies were installed.
-This app includes all CRUD operations requested by the speaker:
-• Create (post-request - http://localhost:3000/transports/)
-• Read (get request - http://localhost:3000/transports/)
-• Update (place request - http://localhost:3000/update/:id)
-• Delete (delete request - http://localhost:3000/transports/delete/:id)
+This app includes all CRUD operations requested by the speaker: a) Create (post-request - http://localhost:3000/transports/); b) Read (get request - http://localhost:3000/transports/); c) Update (place request - http://localhost:3000/update/:id); d) Delete (delete request - http://localhost:3000/transports/delete/:id)
 
 
 
