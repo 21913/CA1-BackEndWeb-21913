@@ -109,7 +109,7 @@ app.delete('/delete/:id', (req, res) => {
 })
 //Start the server
 app.listen(port, () => {
-    mongoose.connect('mongodb+srv://admin:admin@transportsapi.c9ufa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').
+    mongoose.connect('mongodb+srv://admin:admin21913@transportsapi.c9ufa.mongodb.net/myFirstDatabase?retryWrites=true&w=majority').
         catch(error => handleError(error));
     console.log(`Example app listening at http://localhost:${port}`)
 })
