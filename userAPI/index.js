@@ -75,7 +75,7 @@ app.post('/transports', (req, res) => {
 
 
 // put is to edit,modify,change the database 
-app.put('/transports/:id', (req, res) => {
+app.put('/update/:id', (req, res) => {
     
     console.log("Editing the vehicles details...")
     Transports.findByIdAndUpdate(
@@ -95,7 +95,7 @@ app.put('/transports/:id', (req, res) => {
 
 })
 // to delet  1 object using parameter and delete by id
-app.delete('/transports/:id', (req, res) => {
+app.delete('/delete/:id', (req, res) => {
     Transports.findByIdAndDelete(req.params.id, err => {
         if (err) {
             res.send("Vehicle was not deleted.")
