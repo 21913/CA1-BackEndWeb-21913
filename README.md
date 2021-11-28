@@ -1,8 +1,8 @@
 # CA1-BackEndWeb-21913
 
-<h1>Report Countinious Assessment<h1>
+<h1>Report Countinious Assessment</h1>
 
-To develop this project it was necessary to use videos made in the classroom and mongoosejs, npmjs, MongoDB and postman.
+<p>To develop this project it was necessary to use videos made in the classroom and mongoosejs, npmjs, MongoDB and postman.
 A web application API was developed using Node.js, which can perform CRUD operations on a Mongo database.
 Transports were chosen for data storage and I tried using String, Numbers and Booleans.
 The code was done in Visual Studio and the following body-parser, express and mongoose dependencies were installed.
